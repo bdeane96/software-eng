@@ -6,21 +6,36 @@ public class Module {
 	private String moduleName, moduleID;
 	private List<Student> studentList;
 	
+	public Module() {
+		
+	}
+	
+	public Module(String moduleName, String moduleID, List<Student> studentList) {
+		setModuleName(moduleName);
+		setModuleID(moduleID);
+		setStudentList(studentList);
+	}
+	
 	public String getModuleName() {
 		return moduleName;
 	}
+	
 	public void setModuleName(String moduleName) {
 		this.moduleName = moduleName;
 	}
+	
 	public String getModuleID() {
 		return moduleID;
 	}
+	
 	public void setModuleID(String moduleID) {
 		this.moduleID = moduleID;
 	}
+	
 	public List<Student> getStudentList() {
 		return studentList;
 	}
+	
 	public void setStudentList(List<Student> studentList) {
 		this.studentList = studentList;
 	}
