@@ -26,7 +26,7 @@ public class StudentTest extends TestCase {
 	}
 
 	/**
-	 * Rigourous Test :-)
+	 * test to check username is generated correctly
 	 */
 	public void testStudent() {
 		name = "Bronagh Deane";
