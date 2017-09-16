@@ -1,5 +1,6 @@
 package software_eng.assignment;
 
+import java.util.Iterator;
 import java.util.List;
 import org.joda.time.*;
 
@@ -49,5 +50,16 @@ public class Course {
 	
 	public void setEndDate(DateTime endDate) {
 		this.endDate = endDate;
+	}
+	
+	public String toString() {
+		String moduleInfo = "";
+		
+		for(Iterator<Module> it = modules.iterator(); it.hasNext();) {
+			Module module = it.next();
+			moduleInfo += module.toString();
+		}
+		
+		return "Course: " + courseName + ", " + moduleInfo +"\nStart date: " + startdate + "\nEnd date: " +endDate;
 	}
 }

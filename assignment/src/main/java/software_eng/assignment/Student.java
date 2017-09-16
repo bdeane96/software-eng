@@ -46,4 +46,7 @@ public class Student {
 		return name+dob;
 	}
 
+	public String toString() {
+		return "Student info:" + name + "," + age +"," + dob +"," + id +"\n";
+	}
 }
