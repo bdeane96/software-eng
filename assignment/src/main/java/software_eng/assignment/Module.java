@@ -51,6 +51,6 @@ public class Module {
 			}
 		}
 
-		return "\nModule:" + moduleName + "," + moduleID + ", \n" + studentsInfo;
+		return "\nModule:" + moduleName + "," + moduleID + ", \nStudents:\n" + studentsInfo;
 	}
 }

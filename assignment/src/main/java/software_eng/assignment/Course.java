@@ -60,6 +60,6 @@ public class Course {
 			moduleInfo += module.toString();
 		}
 		
-		return "Course: " + courseName + ", " + moduleInfo +"\nStart date: " + startdate + "\nEnd date: " +endDate;
+		return "Course: " + courseName + ", \nModules:\n" + moduleInfo +"\nStart date: " + startdate + "\nEnd date: " +endDate;
 	}
 }
