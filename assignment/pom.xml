@@ -16,8 +16,8 @@
 
 	<distributionManagement>
 		<repository>
-			<id>dropbox-mvn-repo</id>
-			<url>file:///C:\Users\brona\Dropbox\dropbox-mvn-repo</url>
+			<id>mvn</id>
+			<url>file:///C:/Users/brona/Dropbox/mvn</url>
 			<layout>default</layout>
 		</repository>
 	</distributionManagement>
