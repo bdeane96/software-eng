@@ -4,15 +4,7 @@
 
 	<groupId>software-eng</groupId>
 	<artifactId>assignment</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
-
-	<name>assignment</name>
-	<url>http://maven.apache.org</url>
-
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
+	<version>1.0.0-SNAPSHOT</version>
 
 	<dependencies>
 		<dependency>
