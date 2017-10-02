@@ -1,9 +1,12 @@
 package software_eng.assignment;
 
+import org.joda.time.DateTime;
+
 public class Student {
-	private String name, age, dob, id;
+	private String name, age, id;
+	private DateTime dob;
 	
-	public Student(String name, String age, String dob, String id) {
+	public Student(String name, String age, DateTime dob, String id) {
 		this.setName(name);
 		this.setAge(age);
 		this.setDob(dob);
@@ -26,11 +29,11 @@ public class Student {
 		this.age = age;
 	}
 
-	public String getDob() {
+	public DateTime getDob() {
 		return dob;
 	}
 
-	public void setDob(String dob) {
+	public void setDob(DateTime dob) {
 		this.dob = dob;
 	}
 
