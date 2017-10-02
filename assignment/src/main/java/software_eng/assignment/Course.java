@@ -32,6 +32,10 @@ public class Course {
 		return modules;
 	}
 	
+	public void addModule(Module module) {
+		modules.add(module);
+	}
+	
 	public void setModules(List<Module> modules) {
 		this.modules = modules;
 	}

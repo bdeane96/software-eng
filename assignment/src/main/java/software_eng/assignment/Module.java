@@ -32,7 +32,11 @@ public class Module {
 	public void setModuleID(String moduleID) {
 		this.moduleID = moduleID;
 	}
-
+	
+	public void addStudent(Student student) {
+		studentList.add(student);
+	}
+  
 	public List<Student> getStudentList() {
 		return studentList;
 	}

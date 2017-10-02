@@ -43,7 +43,7 @@ public class Student {
 	}
 	
 	public String getUsername() {
-		return name+dob;
+		return name+age;
 	}
 
 	public String toString() {
