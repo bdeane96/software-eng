@@ -33,7 +33,7 @@ public class StudentTest extends TestCase {
 		age = "21";
 		dob = "26/05/1996";
 		id = "14407778";
-		username = name + dob;
+		username = name + age;
 		
 		Student student = new Student(name, age, dob, id);
 
