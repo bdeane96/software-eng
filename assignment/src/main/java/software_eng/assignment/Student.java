@@ -6,6 +6,10 @@ public class Student {
 	private String name, age, id;
 	private DateTime dob;
 	
+	public Student() {
+		
+	}
+	
 	public Student(String name, String age, DateTime dob, String id) {
 		this.setName(name);
 		this.setAge(age);
