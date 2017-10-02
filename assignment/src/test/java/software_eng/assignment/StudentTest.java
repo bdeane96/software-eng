@@ -36,7 +36,7 @@ public class StudentTest extends TestCase {
 	public void testStudent() {
 		
 		DateTimeFormatter dtf = DateTimeFormat.forPattern("MM/dd/yyyy");
-		String date ="26/05/1996";
+		String date = "05/26/1996";
 		dob = dtf.parseDateTime(date);
 		
 		name = "Bronagh Deane";
